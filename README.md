@@ -15,6 +15,7 @@ First, install humanizer into `~/.claude/skills/humanizer/`:
 git clone https://github.com/blader/humanizer.git ~/.claude/skills/humanizer
 ```
 
+Then install this skill:
 ```sh
 git clone https://github.com/bendavis78/concise-engineering-doc.git ~/.claude/skills/concise-engineering-doc
 ```
