@@ -6,13 +6,14 @@ A Claude Code skill for writing engineering planning documents — ADRs, design 
 
 This skill depends on the [`humanizer`](https://github.com/blader/humanizer) skill. Pass 3 of the workflow runs `humanizer` on the compressed draft to scrub residual AI tells (inflated symbolism, rule-of-three padding, em-dash overuse, "not just X but Y" constructions, etc.) before delivery. Install it alongside this one — without it, the final pass is skipped and the output will still read like an LLM wrote it.
 
-Install humanizer into `~/.claude/skills/humanizer/`:
+
+## Install
+
+First, install humanizer into `~/.claude/skills/humanizer/`:
 
 ```sh
 git clone https://github.com/blader/humanizer.git ~/.claude/skills/humanizer
 ```
-
-## Install
 
 ```sh
 git clone https://github.com/bendavis78/concise-engineering-doc.git ~/.claude/skills/concise-engineering-doc
